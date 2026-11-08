@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- CSD Container Tracker: a core section, banded like sediment, and a gold pin for "where it is". -->
+  <rect width="512" height="512" fill="#7A0019"/>
+  <g id="mark" transform="translate(-28 0)">
+    <clipPath id="core"><rect x="112" y="76" width="150" height="360" rx="34"/></clipPath>
+    <g clip-path="url(#core)">
+      <rect x="112" y="76" width="150" height="360" fill="#C9A66B"/>
+      <rect x="112" y="128" width="150" height="34" fill="#8C6A43"/>
+      <rect x="112" y="176" width="150" height="62" fill="#D8C7A0"/>
+      <rect x="112" y="238" width="150" height="22" fill="#5E4B3C"/>
+      <rect x="112" y="282" width="150" height="48" fill="#A39E93"/>
+      <rect x="112" y="352" width="150" height="30" fill="#8C6A43"/>
+      <rect x="112" y="382" width="150" height="54" fill="#B8925A"/>
+    </g>
+    <path d="M352 112c-56 0-100 44-100 99 0 74 100 189 100 189s100-115 100-189c0-55-44-99-100-99z" fill="#FFCC33" stroke="#7A0019" stroke-width="14"/>
+    <circle cx="352" cy="210" r="38" fill="#7A0019"/>
+  </g>
+</svg>
