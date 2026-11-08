@@ -53,7 +53,7 @@
 </main>
 <script>
   // The tracker's address: the web app link from Deploy > Manage deployments, ending in /exec.
-  const APP = 'PASTE-THE-WEB-APP-LINK-HERE';
+  const APP = 'https://script.google.com/a/macros/umn.edu/s/AKfycbz9irXIYN6NsrS3Zhu3lm2QsAXIReFmP5brPchYnZHhd189E1cYliM0ufw7ne_2NPkM/exec';
 
   const ready = /^https:\/\/script\.google\.com\/.+\/exec$/.test(APP);
   document.getElementById('go1').href = document.getElementById('go2').href = ready ? APP : '#';
